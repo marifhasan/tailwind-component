@@ -1,3 +1,3 @@
 # Run This Command
 
-npx tailwindcss build styles.css -o src/output.css
+npx tailwindcss build styles.scss -o css/style.bundle.css
