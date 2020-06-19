@@ -1,14 +1,20 @@
 {
-  "name": "tailwind",
-  "version": "1.0.0",
+  "name": "qcomponent",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "dependencies": {
-    "tailwindcss": "^1.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "tailwindcss": "^1.4.6",
+    "alpinejs": "^2.4.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "tailwind": "tailwindcss build ./src/style.scss -o ./dist/css/style.css"
   },
   "author": "",
   "license": "ISC"
