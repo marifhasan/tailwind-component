@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/script.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/js/script.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -97,14 +97,14 @@ eval("(function (global, factory) {\n   true ? module.exports = factory() :\n  u
 
 /***/ }),
 
-/***/ "./src/script.js":
-/*!***********************!*\
-  !*** ./src/script.js ***!
-  \***********************/
+/***/ "./src/js/script.js":
+/*!**************************!*\
+  !*** ./src/js/script.js ***!
+  \**************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__ (/*! alpinejs */ \"./node_modules/alpinejs/dist/alpine.js\")\n\n//# sourceURL=webpack:///./src/script.js?");
+eval("__webpack_require__ (/*! alpinejs */ \"./node_modules/alpinejs/dist/alpine.js\")\n\n//# sourceURL=webpack:///./src/js/script.js?");
 
 /***/ })
 
